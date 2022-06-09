@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("splash.jpg");
+    background-color: rgb(68, 56, 56);
+   
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+   
+}
+.img{
+    align-items: flex-start;
+    width: 90px;
+}
+nav{
+    display: inline-flex;
+
+    padding: 2% 6%;
+   
+    justify-content: center;
+    
+}
+.nav-links ul li a{
+   justify-content: center;
+   text-align: right;
+   
+  
+   
+    display: inline-flex;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 8px 12px;
+    position: relative;
+    text-decoration: none;
+   
+}
+li{
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+  
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+ul ::after{
+    content: "";
+    width: 0%;
+   height: 2px;
+   background-color: #f0a504;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+}
+ li ::after{
+    content: "";
+    width: 0%;
+   height: 2px;
+   background-color: #f0a504;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+}
+ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    color: beige;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 52px;
+    font-family: 'cinzel', sans-serif;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.hero-btn{
+    display: inline-block;
+    border: 1px solid #f0a504;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-family:  'Poppins', sans-serif;
+}
+
+.hero-btn:hover{
+    border: 1px solid beige;
+    background-color: #f0a504;
+    transition: 1s;
+}
+
+.course{
+   width: 80%;
+  padding-left: 20%;
+  padding-top: 100px;
+   text-align: center;
+   font-family:'Poppins', sans-serif;
+
+}
+.course h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.course p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+ .course-col{
+padding: 0px 70px 0px 70px;
+font-family:'Poppins', sans-serif ;
+text-align: center;
+flex-basis: 31%;
+background-color: #f0a504;
+border-radius: 10px;
+margin-bottom: 5%;
+padding: 20px 12px;
+box-sizing: border-box;
+transition: 0.5s;
+position: relative;
+
+
+ }
+ h3{
+     text-align: center;
+     font-weight: 600;
+     margin: 10px 0;
+ }
+ .row{
+     margin-top: 5%;
+     margin-left: 3%;
+     margin-right: -1%;
+     display: flex;
+     justify-content: space-between;
+     position: relative;
+ }
+ .course-col:hover{
+     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
+ }
+ .campus{
+     position:absolute;
+     top: 120%;
+     width: 80%;
+    padding-left: 15%;
+     padding-top: 50px;
+      text-align: center;
+      font-family:'Poppins', sans-serif;
+   
+
+ }
+ .campus h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.campus p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.img2{
+   width: 30%;
+   height: 30%;
+  
+   border-radius: 10px;
+   
+
+   
+}
+.img2:hover{
+    background-color: #f0a504;
+
+
+}
+.lay{
+    
+    display: inline-flex;
+  width: 100%;
+  height: 100%;
+    position: relative;
+    flex-basis: 31%;
+    top: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+    
+    
+}
+.facilities{
+    position:absolute;
+    margin: auto;
+    top: 370%;
+    text-align: center;
+    width: 80%;
+   padding-left: 15%;
+    padding-top: 50px;
+     text-align: center;
+     font-family:'Poppins', sans-serif;
+  
+
+}
+.facilities h1{
+    font-size: 36px;
+    font-weight: 600;
+    
+}
+.facilities p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    
+}
+.facilities-col{
+    flex-basis: 20%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+
+    text-align: left;
+}
+.facilities-col img{
+    width: 170%;
+    height: 65%;
+    border-radius: 10px;
+}
+
+
+
+
